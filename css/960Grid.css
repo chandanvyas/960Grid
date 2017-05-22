@@ -1,0 +1,55 @@
+.container_12 {
+   960px;
+}
+
+.grid_12 {
+    960px;
+    padding: 15px;
+    margin: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.chandan {
+    960px;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    background-color: lightgray;
+}
+
+.logo {
+    width: 80%;
+    height: 20px;
+}
+
+li {
+    display: inline;
+    text-align: right;
+    padding: 8px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.grid_2 {
+    width: 140px;
+    background-color: darkslategray;
+    padding: 20px;
+}
+
+.grid_3 {
+    width: 220px;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.grid_6 {
+    width: 540px;
+    background-color: burlywood;
+    padding: 20px;
+}
