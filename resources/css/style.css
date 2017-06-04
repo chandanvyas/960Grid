@@ -1,0 +1,136 @@
+/*-------------------------basic setup------------------------------------------*/
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------Header-------------------------------*/
+
+header {
+    /*position: fixed;*/
+    background-color: aqua;
+
+}
+
+h1 {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+/*----------------------navigation-------------------------*/
+
+.menu {
+	padding:25px 10px;
+}
+
+.menu li {
+	display:inline;
+  	vertical-align:middle;
+  	line-height:35px;
+  	padding-left: 20px;
+}
+
+/*--------------------Section----------------------------------*/
+
+
+/*--------------------First Section----------------------------------*/
+
+.fs_column1 {
+    background-color: chocolate;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+    
+    
+}
+
+.fs_column2 {
+    background-color: burlywood;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+    margin: 0 0;
+}
+
+.fs_column3 {
+    background-color: forestgreen;
+    border: Thin solid black;
+    padding-right: 10px;
+    text-align: justify;
+    margin: 0 0;
+}
+
+/*--------------------First Section Ends----------------------------------*/
+
+/*--------------------Third Section----------------------------------*/
+
+.hero {
+    background-color: #00d0ff;
+    border: Thin solid black;
+    text-align: justify;
+    width: 100%;
+    height: auto;
+}
+
+/*--------------------Third Section End----------------------------------*/
+
+/*--------------------Second Section----------------------------------*/
+
+.ss_column1 {
+    background-color: cornflowerblue;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.ss_rgt_column1 {
+    background-color: dimgrey;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.ss_rgt_column2 {
+    background-color: bisque;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.ss_rgt_column3 {
+    background-color: darkgray;
+    border: Thin solid black;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+/*--------------------Second Section Ends----------------------------------*/
+
+/*----------------------Footer-------------------------------------*/
+
+footer {
+    background-color: orange;
+    width: auto;
+    border: Thin solid black;
+    text-align: justify;
+}
+
+.details {
+    text-align: center;
+}
+
+.icons {
+    float: right;
+    margin-left: 20px;
+}
+
