@@ -8,18 +8,13 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*---------------Header-------------------------------*/
 
 header {
     /*position: fixed;*/
     background-color: aqua;
-
+    padding: 0;
+    width: 100%;
 }
 
 h1 {
@@ -42,86 +37,81 @@ h1 {
 
 /*--------------------Section----------------------------------*/
 
-
-/*--------------------First Section----------------------------------*/
+.hero-section {
+    width: 960px;
+}
 
 .fs_column1 {
     background-color: chocolate;
-    border: Thin solid black;
+    
     text-align: justify;
     padding-right: 10px;
-    
-    
+    margin: 0;
 }
 
 .fs_column2 {
     background-color: burlywood;
-    border: Thin solid black;
+    
     text-align: justify;
     padding-right: 10px;
-    margin: 0 0;
+    margin: 0;
 }
 
 .fs_column3 {
     background-color: forestgreen;
-    border: Thin solid black;
+    
     padding-right: 10px;
     text-align: justify;
-    margin: 0 0;
+    margin: 0;
 }
-
-/*--------------------First Section Ends----------------------------------*/
-
-/*--------------------Third Section----------------------------------*/
 
 .hero {
     background-color: #00d0ff;
-    border: Thin solid black;
+    
     text-align: justify;
-    width: 100%;
+    width: 100;
     height: auto;
+    margin: 0;
 }
-
-/*--------------------Third Section End----------------------------------*/
-
-/*--------------------Second Section----------------------------------*/
 
 .ss_column1 {
     background-color: cornflowerblue;
-    border: Thin solid black;
+    
     text-align: justify;
+    width: auto;
     padding-right: 10px;
+    margin: 0;
 }
 
 .ss_rgt_column1 {
     background-color: dimgrey;
-    border: Thin solid black;
+    
     text-align: justify;
     padding-right: 10px;
+    margin: 0;
 }
 
 .ss_rgt_column2 {
     background-color: bisque;
-    border: Thin solid black;
+    
     text-align: justify;
     padding-right: 10px;
+    margin: 0;
 }
 
 .ss_rgt_column3 {
     background-color: darkgray;
-    border: Thin solid black;
+    
     text-align: justify;
     padding-right: 10px;
+    margin: 0;
 }
-
-/*--------------------Second Section Ends----------------------------------*/
 
 /*----------------------Footer-------------------------------------*/
 
 footer {
     background-color: orange;
     width: auto;
-    border: Thin solid black;
     text-align: justify;
 }
 
