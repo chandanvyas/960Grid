@@ -14,6 +14,10 @@ h1 {
     padding: 1px 25px;
 }
 
+ul {
+    float: right;
+}
+
 li {
     text-decoration: none;
     display: inline;
@@ -31,7 +35,11 @@ section {
     text-align: center;
 }
 
-span {
+h2 {
+    padding-top: 25px;
+}
+
+div {
     text-align: justify;
 }
 
